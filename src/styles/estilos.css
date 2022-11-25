@@ -78,3 +78,70 @@
     margin: 20px 100px 0 100px;
     text-align: center;
 }
+
+.edadC {
+    align-self: center;
+    width: 570px;
+    height: 90px;
+    margin: 10px 10px 50px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    background-color: rgb(149, 149, 149);
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+    border-radius: 20px;
+}
+
+.contCua{
+    align-self: center;
+    width: 570px;
+    height: 90px;
+    margin: 10px 10px 50px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.cuadritos{
+    width: 100px;
+    height: 100px;
+    margin: 10px 40px 30px;
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(149, 149, 149);
+
+}
+
+.boton-calcular{
+    border-radius: 30px;
+    width: 100px;
+}
+
+
+
+.card {
+    align-self: center;
+    width: 970px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(214, 214, 214);
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+    border-radius: 30px;
+
+}
+
+.contenedor {
+    align-self: center;
+    width: 70%;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
