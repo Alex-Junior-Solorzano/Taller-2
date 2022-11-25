@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Imc = () => {
+const Imc = ( ) => {
   return (
     <div>Imc</div>
-  )
-}
+  )  
+} 
 
 export default Imc
