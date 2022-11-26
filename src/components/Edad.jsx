@@ -77,7 +77,7 @@ const Edad = () => {
                             shrink: true,
                         }}
                     />
-                    <button className='boton-calcular' variant='contained' onClick={calcular}>Calcular</button>
+                    <button className='boton-calcular'  onClick={calcular}>Calcular</button>
                 </Stack>
             </div>
             <div className='contCua'>
