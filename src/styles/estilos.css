@@ -53,13 +53,13 @@
     align-items: flex-start;
 }
 
-.link {
+#link {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: black
 }
 
-.link:active {
+.active{
     border-bottom: 2px solid black;
 }
 
@@ -146,8 +146,8 @@ textarea {
     align-items: center;
     justify-content: center;
     background-color: rgb(149, 149, 149);
-    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
     border-radius: 20px;
+    border-style: none;
 }
 
 .names{
@@ -183,7 +183,9 @@ textarea {
 .boton-calcular {
     border-radius: 30px;
     width: 100px;
+    height: 30px;
     background-color: rgb(224, 224, 224);
+    border-style: none;
 }
 
 .imagen{

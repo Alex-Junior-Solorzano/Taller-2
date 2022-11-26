@@ -2,18 +2,18 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
-    let activeClassName="active";
+    
     return (
         <>
             <nav className='nav'>
                 <ul className='nav'>
-                    <NavLink  className='link' to='/'>
+                    <NavLink  id='link' to='/'>
                         <strong>Home</strong>
                     </NavLink>
-                    <NavLink className='link' to='/imc'>
+                    <NavLink id='link' to='/imc'>
                         <strong>IMC Calculator</strong>
                     </NavLink>
-                    <NavLink className='link' to='/edad'>
+                    <NavLink id='link' to='/edad'>
                         <strong>Age Calculator</strong>
                     </NavLink>
                     <div className='kruger'>
@@ -23,13 +23,13 @@ const Navbar = () => {
                         />
                         <p className='k'><strong>KrugerStar</strong></p>
                     </div>
-                    <NavLink className='link' to='/clock'>
+                    <NavLink id='link' to='/clock'>
                         <strong>My Clock</strong>
                     </NavLink>
-                    <NavLink className='link' to='/about'>
+                    <NavLink id='link' to='/about'>
                         <strong>About Me</strong>
                     </NavLink>
-                    <NavLink className='link' to='/contact'>
+                    <NavLink id='link' to='/contact'>
                         <strong>Contact</strong>
                     </NavLink>
                 </ul>
