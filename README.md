@@ -37,8 +37,6 @@
 
  - GitHub: [@Alex-Junior-Solorzano](https://github.com/Alex-Junior-Solorzano)
 
- - LinkedIn: [Juan Sebastian Sotomayor](https://linkedin.com/in/juan-sebastian-sotomayor-2bb395198)
-
 
 
  ## 🤝 Contributing
